@@ -1,0 +1,20 @@
+{
+	"name": "cy-product-store",
+	"version": "1.0.0",
+	"description": "Automation for the product store page navigation flows",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"cy:open": "cypress open",
+		"cy:run": "cypress run"
+	},
+	"author": "Sebastian Guzman",
+	"license": "ISC",
+	"dependencies": {
+		"cypress": "^6.8.0",
+		"cypress-cucumber-preprocessor": "^4.0.3"
+	},
+	"cypress-cucumber-preprocessor": {
+		"nonGlobalStepDefinitions": true
+	}
+}
